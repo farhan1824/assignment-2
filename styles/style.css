@@ -140,7 +140,7 @@ padding-top: 120px;
 #kitty{
     position: relative;
    bottom:  150px;
-   left: 400px;
+   left: 450px;
 }
 .last-text-part h1{
     font-size: 48px;
@@ -154,6 +154,28 @@ padding-top: 120px;
     color: #E562C7;
 font-size: 48px;
 font-weight: 700;
+}
+.griding-part{
+    margin: 50px auto;
+    padding: 150px;
+    background-color: #FFF9FC;
+    display: grid;
+    row-gap: 40px;
+    grid-template-columns: repeat(5,1fr);
+}
+.part-img:hover{
+    color: #FF55AE;
+    border-color: #FF55AE;
+}
+.part-img{
+    display: flex;
+    border: 2px solid white;
+    gap: 12px;
+    align-items: center;
+    text-align: center;
+    width: max-content;
+    border-radius: 50px;
+    background: #FFF;
 }
 @media screen and (max-width:546px ) {
     .head,.lists ul {
@@ -242,4 +264,26 @@ font-weight: 400;
 {   padding-top: 14px;
     font-size: 12px;
     font-weight: 200;}
+    .griding-part{
+        margin-top: 50px;
+        padding: 10px;
+        row-gap: 20px;
+        grid-template-columns: repeat(3,0.5fr);
+    }
+    .part-img:hover{
+        color: #FF55AE;
+        border-color: #FF55AE;
+    }
+    .part-img{
+        margin: 5px;
+        font-size: 12px;
+        width: max-content;
+        width: 100%;
+        
+    }
+    .part-img img{
+        height: 30px;
+        width: 30px;
+
+    }
 }
