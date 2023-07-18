@@ -116,15 +116,45 @@ main{
 .iktu-header h6{
     color: #534C64;
 text-align: center;
-
 font-size: 18px;
-
 font-weight: 400;
 }
 .online-games{
     margin-top: 120px;
 }
-
+.last-text-part{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-last-part{
+padding-top: 120px;
+}
+.last-part{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+#kitty{
+    position: relative;
+   bottom:  150px;
+   left: 400px;
+}
+.last-text-part h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.last-text-part h6
+{color: #0b022355;
+    font-size: 18px;
+    font-weight: 400;}
+#text-editing{
+    color: #E562C7;
+font-size: 48px;
+font-weight: 700;
+}
 @media screen and (max-width:546px ) {
     .head,.lists ul {
 flex-direction: column;
@@ -174,5 +204,42 @@ text-align: center;
 font-size: 12px;
 font-weight: 400;
 }
+.last-part{
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+.img-last-part img{
+    width: 100%;
+    
+}
+#kitty{
+    position:relative;
+width: 30%;
+bottom: 70px;
+left:200px;
+}
+.img-last-part{
+    padding-top: 30px;
+    padding-left: 30px;
+    }
+ .last-text-part{
+   padding-bottom: 50px;
+  
+ }   
+ .last-part{
+    margin-top: 80px;
+    margin-left: 40px;
+ }
+ .last-text-part h1{
+    font-size: 25px;
+    font-weight: 400;
+}#text-editing{
+font-size: 28px;
+font-weight: 400;
 
+}
+.last-text-part h6
+{   padding-top: 14px;
+    font-size: 12px;
+    font-weight: 200;}
 }
