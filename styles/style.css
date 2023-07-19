@@ -216,6 +216,9 @@ font-weight: 500;
         align-items: center;
         text-align: center;
             }
+            .button-section{
+                display: flex;
+            }
 .gamer{
             padding-bottom: 62px;
         }    
@@ -233,7 +236,19 @@ font-weight: 500;
     .iktu-header{
         padding-top: 15px;
     }
-
+    .normal-btn{
+        border-radius: 48px;
+        background-color: #FF42A5;
+        padding: 10px 20px;
+        border: none;  
+        color:white;
+    }
+    #blue-btn{
+        border-radius: 48px;
+    background-color: #4EC5F7;
+    padding: 10px 20px;
+    border: none;
+    }
     .last-part{
         flex-direction: column;
     }
@@ -304,6 +319,7 @@ left:520px;
     }
     .goat{
         margin-top: 30px;
+        flex-direction: column;
     }
 }
 @media screen and (max-width:546px ) {
@@ -336,10 +352,11 @@ gap:  62px;
  
     padding-top: 20px;
 }
-main{
+main,footer,header{
     width :390px;
     margin:0px 10px 0px 10px;
 }
+
 .iktu-header h1
 {
     color: #0B0223;
@@ -360,18 +377,19 @@ font-weight: 400;
     gap: 10px;
 }
 .img-last-part img{
-    width: 100%;
+    width: 70%;
     
 }
 #kitty{
 position:relative;
 width: 30%;
+height: 30%;
 bottom: 70px;
 left:200px;
 }
 .img-last-part{
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left: 10px;
     }
  .last-text-part{
    padding-bottom: 50px;
@@ -379,7 +397,7 @@ left:200px;
  }   
  .last-part{
     margin-top: 80px;
-    margin-left: 40px;
+    margin-left: 20px;
  }
  .last-text-part h1{
     font-size: 25px;
@@ -450,15 +468,18 @@ font-weight: 400;
         flex-direction: column;
           }
       .text-sction{
-          padding: 10px 5px 10px 5px;
+          padding: 10px 0px 10px 0px;
       }
       .goat-text{
-        width: 88%;
+        width: 100%;
       }
+      .text-sction{
+        padding: 12px 30px 14px 44px;
+        
+    }
       #img{
-          width:85%;
+          width:100%;
           height:auto;
-          padding:4px;
       }
       #blue-btn{
           border-radius: 48px;
