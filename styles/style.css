@@ -29,10 +29,43 @@ header{
     text-align: center;
 
 }
-/* 
+/**/
+.goat{
+    display: flex;
+    justify-content: space-between;
+}
+.goat-text{
+    background-image: url("../Group\ 14.png");
+}
+.text-sction{
+    padding: 148px 300px 148px 244px;
+    
+}
+#edit-2{
+    color: #C64FCF;
+    font-size: 70px;
+    font-weight: 400;
 
- */
+}
+.normal-btn{
+    border-radius: 48px;
+    background-color: #FF42A5;
+    padding: 21px 40px;
+    border: none;  
+    color:white;
+}
+#blue-btn{
+    border-radius: 48px;
+background-color: #4EC5F7;
+padding: 21px 40px;
+border: none;
+}
 
+.button-sction{
+    padding-top: 30px;
+}
+
+/* */
 main{
     width: 80vw;
     margin: 0px auto;
@@ -269,6 +302,9 @@ left:520px;
     .link-sections a> img{
         padding-left: 40px;
     }
+    .goat{
+        margin-top: 30px;
+    }
 }
 @media screen and (max-width:546px ) {
     .head,.lists ul {
@@ -301,7 +337,7 @@ gap:  62px;
     padding-top: 20px;
 }
 main{
-    max-width :390px;
+    width :390px;
     margin:0px 10px 0px 10px;
 }
 .iktu-header h1
@@ -328,7 +364,7 @@ font-weight: 400;
     
 }
 #kitty{
-    position:relative;
+position:relative;
 width: 30%;
 bottom: 70px;
 left:200px;
@@ -410,4 +446,36 @@ font-weight: 400;
     .link-sections a> img{
         padding-left: 40px;
     }
+    .goat{
+        flex-direction: column;
+          }
+      .text-sction{
+          padding: 10px 5px 10px 5px;
+      }
+      .goat-text{
+        width: 88%;
+      }
+      #img{
+          width:85%;
+          height:auto;
+          padding:4px;
+      }
+      #blue-btn{
+          border-radius: 48px;
+      background-color: #4EC5F7;
+      padding: 10px 15px;
+      border: none;
+      margin-top: 12px;
+      }
+      .normal-btn{
+          border-radius: 48px;
+          background-color: #FF42A5;
+          padding: 10px 20px;
+          border: none;  
+          color:white;
+          margin-top: 12px;
+      }
+      .text-sction{
+          text-align: center;
+      }
 }
