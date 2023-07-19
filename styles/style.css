@@ -171,11 +171,105 @@ font-size: 16px;
 font-weight: 500;
 
 }
+@media screen and (min-width:546px) and (max-width: 960px)
+ {
+    main{
+        width: 90%;
+        margin: 1px auto;
+    }
+    .head,.lists ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+            }
+.gamer{
+            padding-bottom: 62px;
+        }    
+#edit-1{
+        gap:  20px;
+        background-color: darkslategray;
+        color: white;
+        padding: 17px 40px;
+        border-radius: 12px;
+        }
+    .img-section{
+        
+        grid-template-columns: repeat(2,1fr);
+    }
+    .iktu-header{
+        padding-top: 15px;
+    }
 
+    .last-part{
+        flex-direction: column;
+    }
+.img-last-part img{
+ width: 90%; 
+}
+#warrior{
+    padding-left: 10px;
+}
+#kitty{
+    position:relative;
+width: 20%;
+bottom: 120px;
+left:520px;
+}
+.img-last-part{
+    padding-top: 30px;
+    padding-left: 10px;
+    }
 
-
-
-
+    .griding-part{
+        margin-top: 80px;
+        padding: 10px;
+        row-gap: 30px;
+        grid-template-columns: repeat(3,0.5fr);
+    }
+    .part-img:hover{
+        color: #FF55AE;
+        border-color: #FF55AE;
+    }
+    .part-img{
+        margin: 13px;
+        font-size: 25px;
+        width: max-content;
+        width: 90%;
+        
+    }    
+    .choto-sec{
+        padding-top: 80px;
+    }
+    .choto-sec h1{
+        text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    
+    }
+    .fotter-list ul{
+        grid-template-columns: repeat(6,1fr);
+         gap: 20px; 
+        font-size: 12px;
+        font-weight: 400;
+        gap: 10px;
+     }
+     .list-edit ul{
+        color: rgba(255, 255, 255, 0.60);
+    font-size: 10px;
+    font-weight: 200;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    list-style: none;
+    }
+    .fotter-part{  
+        padding: 05px;
+    }
+    .link-sections a> img{
+        padding-left: 40px;
+    }
+}
 @media screen and (max-width:546px ) {
     .head,.lists ul {
 flex-direction: column;
@@ -310,8 +404,7 @@ font-weight: 400;
     grid-template-columns: repeat(2,1fr);
     list-style: none;
     }
-    .fotter-part{
-        
+    .fotter-part{  
         padding: 10px;
     }
     .link-sections a> img{
